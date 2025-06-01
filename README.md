@@ -9,12 +9,17 @@ This web app allows users to input sonar signal features and instantly classify 
 # Technologies
 
 Frontend:
+
 • Streamlit (interactive UI)
+
 • HTML & CSS (custom styling)
 
 Backend:
+
 • Python
+
 • Pandas, NumPy (data handling)
+
 • Scikit-learn (model training & prediction)
 
 # How to Use
@@ -33,13 +38,19 @@ Required Python libraries: pandas, numpy, scikit-learn, streamlit
 # COMMANDS
 
 python --version
+
 pip --version
+
 mkdir mine_vs_rock
+
 cd mine_vs_rock
+
 pip install numpy pandas scikit-learn
 
 # Run the Streamlit app
+
 streamlit run app.py
 
 Open your browser and go to:
+
 http://localhost:8501
